@@ -1,4 +1,4 @@
-class LoadCommentsFromChangesets < ActiveRecord::Migration
+class LoadCommentsFromChangesets < ActiveRecord::Migration[4.2]
   def change
     reversible do |d|
       d.up do

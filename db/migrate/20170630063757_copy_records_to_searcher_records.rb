@@ -1,4 +1,4 @@
-class CopyRecordsToSearcherRecords < ActiveRecord::Migration
+class CopyRecordsToSearcherRecords < ActiveRecord::Migration[4.2]
   def change
     reversible do |d|
       d.up do

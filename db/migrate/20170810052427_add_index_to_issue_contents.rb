@@ -1,4 +1,4 @@
-class AddIndexToIssueContents < ActiveRecord::Migration
+class AddIndexToIssueContents < ActiveRecord::Migration[4.2]
   def change
     reversible do |d|
       case

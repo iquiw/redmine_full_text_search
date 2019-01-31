@@ -1,4 +1,4 @@
-class AddIndexToSearcherRecords < ActiveRecord::Migration
+class AddIndexToSearcherRecords < ActiveRecord::Migration[4.2]
   def change
     reversible do |d|
       case

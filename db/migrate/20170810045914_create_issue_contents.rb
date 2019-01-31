@@ -1,4 +1,4 @@
-class CreateIssueContents < ActiveRecord::Migration
+class CreateIssueContents < ActiveRecord::Migration[4.2]
   def change
     reversible do |d|
       d.up do
